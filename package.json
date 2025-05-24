@@ -1,20 +1,26 @@
 {
-  "name": "ecommerce-admin-api",
-  "version": "1.0.0",
-  "description": "Backend API that can power a web admin dashboard for e-commerce managers",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "start": "node dist/index.js"
-  },
-  "author": "Uzair Riaz Farooqui",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^5.1.0"
-  },
-  "devDependencies": {
-    "@types/express": "^5.0.2",
-    "typescript": "^5.8.3"
-  }
+   "name": "ecommerce-admin-api",
+   "version": "1.0.0",
+   "description": "Backend API that can power a web admin dashboard for e-commerce managers",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "tsc",
+      "start": "ts-node src/index.ts",
+      "typeorm": "typeorm-ts-node-commonjs"
+   },
+   "author": "Uzair Riaz Farooqui",
+   "license": "MIT",
+   "dependencies": {
+      "express": "^5.1.0",
+      "mysql2": "^3.14.1",
+      "reflect-metadata": "^0.2.2",
+      "typeorm": "0.3.24"
+   },
+   "devDependencies": {
+      "@types/express": "^5.0.2",
+      "@types/node": "^22.13.10",
+      "ts-node": "^10.9.2",
+      "typescript": "^5.8.3"
+   }
 }

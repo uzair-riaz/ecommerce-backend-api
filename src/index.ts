@@ -1,4 +1,8 @@
+import 'reflect-metadata';
 import express from 'express';
+import { AppDataSource } from "./data-source";
+
+AppDataSource.initialize().catch(error => console.log(error));
 const app = express();
 
 app.use(express.json());
