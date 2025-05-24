@@ -1,0 +1,11 @@
+{
+  "name": "ecommerce-admin-api",
+  "version": "1.0.0",
+  "description": "Backend API that can power a web admin dashboard for e-commerce managers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Uzair Riaz Farooqui",
+  "license": "MIT"
+}
