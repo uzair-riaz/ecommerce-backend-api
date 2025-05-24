@@ -1,5 +1,9 @@
 import "reflect-metadata"
 import { DataSource } from "typeorm"
+import {Product} from "./entity/product";
+import {Category} from "./entity/category";
+import {Sale} from "./entity/sale";
+import {InventoryChange} from "./entity/inventory-change";
 
 export const AppDataSource = new DataSource({
     type: "mysql",
@@ -10,7 +14,7 @@ export const AppDataSource = new DataSource({
     database: "forsit",
     synchronize: true,
     logging: false,
-    entities: [],
+    entities: [Product, Category, Sale, InventoryChange],
     migrations: [],
     subscribers: [],
 })
