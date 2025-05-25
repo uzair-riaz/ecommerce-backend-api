@@ -44,7 +44,7 @@ A comprehensive backend API that powers a web admin dashboard for e-commerce man
 
 2. **Build and start the application**
    ```bash
-   docker-compose up --d
+   docker-compose up -d
    ```
 
 3. **Access the application**
